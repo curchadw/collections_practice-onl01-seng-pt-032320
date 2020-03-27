@@ -39,3 +39,7 @@ def find_a(array)
     word.chr == "a"
   end
 end
+
+def sum_array(array)
+  
+end
