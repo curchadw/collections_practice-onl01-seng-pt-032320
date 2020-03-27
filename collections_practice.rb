@@ -30,10 +30,12 @@ end
 def kesha_maker(array)
   array.map do |a|
     a[2] = "$"
+    a
   end
 end
 
 def find_a(array)
   array.select do |word|
     word.chr == "a"
+  end
 end
